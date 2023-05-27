@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+}
+ul {
+  display: inline;
+}
+li {
+  display: inline;
+
+  padding: 30px;
+}
+li > a:hover {
+  color: black;
+}
+#on {
+  color: black;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+#logo {
+  padding: 20px;
+}
+.header {
+  background-color: #D87344;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+/* .navigation input[type=text]{
+    padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  } */
+
+.bg {
+  background-image: url(./Images/slide.PNG);
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+}
+#text {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  color: white;
+}
+
+#txt1 {
+  color: white;
+}
+#btn1 {
+  background-color: #D87344;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+#btn2 {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #D87344;
+  padding: 15px 32px;
+  font-size: 16px;
+}
+#btn2:hover{
+  background-color: #D87344;
+}
+.mainService {
+  background-color: #D87344;
+  display: flex;
+  justify-content: space-around;
+}
+.service {
+  padding: 50px;
+  color: white;
+}
+.header input{
+  width: 250px;
+  height: 30px;
+}
